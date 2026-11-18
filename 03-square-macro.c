@@ -28,6 +28,6 @@
 int main(void)
 {
     int r = 3;
-    printf("2乗は%dです。\n", SQUARE(r));
+    printf("2乗は%dです。\n", SQUARE(r+1));
     return 0;
 }
